@@ -1,0 +1,36 @@
+.full-screen-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.confirmacion-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 0rem; /* Añade margen inferior */
+}
+
+.confirmacion-icon {
+  color: #003366;
+}
+
+.confirmacion-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.confirmacion-button {
+  color: #003366;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  margin-bottom: 0.5rem;
+}
+
+.confirmacion-arrow {
+  color: white;
+}
+
+h1 {
+  color: #5F84A2;
+}

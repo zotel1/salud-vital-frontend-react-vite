@@ -1,0 +1,52 @@
+.full-screen-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #1a4568;
+  }
+  
+  .logo {
+    margin-top: 20px; 
+  }
+  
+  h2 {
+    margin-top: 20px; 
+  }
+  
+  .btn {
+    background-color: #1a4568;
+    color: white;
+    border: none;
+    padding: 20px 150px; 
+    margin: 10px;
+    border-radius: 5px; 
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #1a4568;
+    border: 1px solid #1a4568;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .btn {
+      width: 100%;
+      padding: 14px 0; 
+    }
+  }
+  
+  /* Estilos para escritorio */
+  @media (min-width: 769px) {
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 20px 0;
+    }
+  }
+  

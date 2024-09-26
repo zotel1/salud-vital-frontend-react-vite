@@ -1,0 +1,37 @@
+.fixed-bottom-right {
+  position: absolute;
+  bottom: 60px; 
+  right: 20px;
+  z-index: 10; 
+  width: 60px;
+}
+
+.HomeBtnLines{
+  position: absolute;
+  top: 440px;
+  left: 185px;
+  height: 140px;
+}
+.HomeBtnPosition{
+  position: absolute;
+  top: 518px;
+  left: 241px;
+  width: 60px;
+}
+
+.no-overflow{
+  overflow-y: hidden;
+}
+
+.noDatesText1{
+  color: var(--main-color-purple);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-headline-2);
+  letter-spacing: var(--letter-spacing);
+}
+.noDatesText2{
+  color: var(--main-color-light-purple);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-body-1);
+  letter-spacing: var(--letter-spacing);
+}

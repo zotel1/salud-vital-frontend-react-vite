@@ -1,0 +1,21 @@
+.datePicker{
+    width: 155%;
+}
+
+.detalles{
+    color: var(--main-color-purple);
+    font-weight: var(--font-weight-medium);
+}
+
+.btn-cancel{
+    background-color: rgb(151, 13, 13);
+    border: 1px solid rgb(151, 13, 13);
+}
+.btn-cancel:hover{
+    background-color: rgb(252, 31, 31);
+    border: 1px solid rgb(252, 31, 31);
+}
+
+.btn-confirm{
+    border: 1px solid;
+}

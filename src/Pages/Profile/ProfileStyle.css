@@ -1,0 +1,22 @@
+.profileContent{
+    padding: 0 10%;
+}
+.profileImg{
+    width: 40%;
+}
+
+.profileName{
+    font-size: var(--font-size-headline-1);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-color-purple);
+}
+
+.personalInfo{
+    background-color: #EDECF4;
+    border: 1px solid #c9c7d2;
+    border-radius: 15px;
+    padding: 0.5em;
+    width: 100%;
+    line-height: normal;
+    margin-bottom: 0.5em;
+}

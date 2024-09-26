@@ -1,0 +1,25 @@
+.header{
+    color: var(--main-color-blue);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-headline-1);
+    letter-spacing: var(--letter-spacing);
+}
+
+.headerHand{
+    width: 32px;
+}
+
+.profilePicture{
+    width: 53px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.logoutButton {
+    background-color: #1a4568;
+    color: white; 
+    border: none; 
+}

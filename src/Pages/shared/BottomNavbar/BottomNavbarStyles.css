@@ -1,0 +1,11 @@
+.sombra-navbar{
+    box-shadow: 0 -0.5px 5px rgba(0, 0, 0, 0.2);   
+}
+
+.navIcon{
+    width: 20px;
+}
+
+.home-icon{
+    color: #5F84A2;
+}

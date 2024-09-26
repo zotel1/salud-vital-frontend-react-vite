@@ -1,0 +1,190 @@
+/* Full-screen container for mobile-first design */
+.full-screen-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Header/container styling for mobile-first design */
+.App-header {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome and Login text styling */
+.welcome-text {
+  color: #1a4568;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.login-text {
+  color: #1a4568;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Logo and title styles */
+.logo-container {
+  margin: 20px 0;
+}
+
+.logo-img {
+  max-width: 124px;
+
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.brand-title {
+  color: #1a4568;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+/* Form container styling */
+.form-container {
+  width: 100%;
+}
+
+/* Input fields and button styling */
+.input-field {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Mensaje de error */
+.error-message {
+  color: red;
+  font-size: 12px;
+  text-align: left; 
+  margin-top: 5px; 
+  margin-left: 0;
+  padding-left: 2px; 
+}
+
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #5f84a2;
+}
+
+.sign-in-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a4568;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-button:hover {
+  background-color: white;
+  color: #1a4568;
+  border: 1px solid #1a4568;
+}
+
+.sign-up-container {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.sign-up-link {
+  color: #5f84a2;
+  text-decoration: none;
+}
+
+/* Desktop View Adjustments */
+@media (min-width: 1024px) {
+  .full-screen-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-header {
+    max-width: 500px; 
+    padding: 40px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+ 
+    .logo-img {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+  }
+  
+
+  .brand-title {
+    font-size: 36px; 
+  }
+
+  .welcome-text {
+    font-size: 24px; 
+  }
+
+  .login-text {
+    font-size: 28px; 
+  }
+
+  .input-field {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .sign-in-button {
+    padding: 15px;
+    font-size: 18px;
+  }
+}
+
+/* Responsive styling for tablet and mobile views */
+@media (max-width: 768px) {
+  .App-header {
+    padding: 20px;
+    max-width: 350px;
+  }
+
+  .logo-img {
+    width: 80px; 
+  }
+
+  .brand-title {
+    font-size: 24px; 
+  }
+
+  .welcome-text {
+    font-size: 18px;
+  }
+
+  .login-text {
+    font-size: 20px; 
+  }
+}

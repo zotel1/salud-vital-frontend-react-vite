@@ -1,0 +1,77 @@
+/* Estilos personalizados para el botón */
+.vh-auto{
+  height: 94vh;
+}
+
+.btn-custom {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+}
+
+.btn-custom:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para la tarjeta */
+.card {
+  width: 100%; 
+  height: 100%;
+  max-width: 500px;
+  margin: auto; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para la imagen del logo */
+.logo-img {
+  max-width: 200px; 
+  width: 100%;
+  height: auto; 
+}
+
+span.salud-vital {
+  display: block;
+  color: #1a4568;
+  text-align: center;
+  margin-top: 10px; 
+  font-size: 2rem; 
+}
+
+h2.horario-atencion {
+  font-size: 1.25rem; 
+}
+
+/* Ajuste para vh-100 en móviles */
+@media (max-height: 600px) {
+  .vh-100 {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+/* Media queries para responsividad */
+@media (max-width: 576px) {
+  .card {
+    padding: 2rem;
+  }
+
+  .logo-img {
+    max-width: 150px; 
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    padding: 4rem;
+  }
+
+  .logo-img {
+    max-width: 200px; 
+  }
+}
